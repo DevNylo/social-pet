@@ -63,11 +63,12 @@ a{
     gap: 4rem;
 }
 .navigation ul li a{
+    font-family: 'Bangers';
     color: var(--dark);
     font-size: 18px;
     font-weight: 500;
     transition: all 0.5s;
-    text-shadow: 0.5px 0px 0.5px black
+    text-shadow: 2px 3px 5px rgba(253, 76, 0, 0.5);
 }
 .navigation ul li a:hover{
     color: var(--red);
@@ -116,11 +117,15 @@ dl {
     font-size: 1.5rem;
     color: var(--red);
     margin-bottom: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 5px rgba(253, 76, 0, 0.5);
 }
 .home-text .text-h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
+    text-shadow: 2px 2px 5px rgba(253, 76, 0, 0.5);
 }
 .home-text p{
     margin-bottom: 4rem;
@@ -146,7 +151,7 @@ dl {
     height: 350px;
 }
 .carousel {
-    max-width: 1000px;
+    max-width: 700px;
     margin: auto;
     height: 30%;
     padding-bottom: 100px;
@@ -169,10 +174,13 @@ dl {
     justify-content: center;
     font-size: 3rem;
     margin-bottom:30px ;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bangers';
+    text-shadow: 2px 2px 5px rgba(253, 76, 0, 0.5);
 }
 .content span{
+    font-family: 'Bangers';
     color: #fc4c35;
+    text-shadow: 5px 5px 5px rgba(253, 76, 0, 0.5);
     
 }
 section div ul{
@@ -348,6 +356,10 @@ a{
 .footer .logo {
     color:  hsl(0, 0%, 100%);
     margin-block-end: 10px;
+    text-shadow: 5px 5px 5px rgba(253, 76, 0, 0.5);
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: black; /* cor da borda */
+
 }
 
 .footer-text {
@@ -397,6 +409,7 @@ a{
     font-size: 1.8rem;
     font-weight: 700;
     padding-block: 10px;
+    text-shadow: 2px 2px 5px rgba(253, 76, 0, 0.5);
 }
 
 .footer-link {
